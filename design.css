@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+}
+
+.home {
+    padding: 0px;
+}
+
+.navbar {
+    width: 20%;
+    float: left;
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+}
+
+.right {
+    padding-top: 30px;
+    width: 80%;
+    float: right;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+.navbar li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+.navbar li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.navbar img {
+    width: 20%;
+}
+
+.detail h2, h3, h4, p{
+    color:white;
+}
+
+hr {
+    border: 7px solid white;
+    border-radius: 3px;
+    
+}
+
+#education a, p, li {
+    color: white;
+}
+
+#skills h3, li {
+    color: white;
+}
+.left-skills {
+    width: 50%;
+    float: left;
+}
+
+.right-skills {
+    width: 50%;
+    float: right;
+}
+
+#projects h3, li, p {
+    color: white;
+}
+
+#experience {
+    color: white;
+}
